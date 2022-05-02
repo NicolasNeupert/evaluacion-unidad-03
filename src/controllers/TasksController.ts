@@ -4,6 +4,7 @@ import { UserTokenPayload } from "../models/dto/UserDTO"
 import TaskRepository from "../models/repositories/TaskRepository"
 import { createTaskSchema, updateTaskSchema } from "../models/validators/taskSchemas"
 
+// Mensajes de error predefinidos
 const TASK_EXISTS = 'Task already exists'
 const WENT_WRONG = 'Something went wrong'
 

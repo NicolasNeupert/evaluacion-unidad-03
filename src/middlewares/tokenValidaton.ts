@@ -1,6 +1,8 @@
 import { NextFunction, Request, Response } from "express"
 import { verifyToken } from "../lib/jwt"
 
+
+// Mensajes de error predefinidos
 const MISSING_AUTH = 'Missing authorization header'
 
 export default function tokenValidator() {

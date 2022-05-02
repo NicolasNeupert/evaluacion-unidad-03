@@ -5,6 +5,8 @@ import UserRepository from "../models/repositories/UserRepository"
 import { loginSchema, registerSchema } from "../models/validators/userSchemas"
 import { generateToken } from "../lib/jwt";
 
+
+// Mensajes de error predefinidos
 const CREDENTIALS_INVALID = 'Credentials invalid'
 const USER_EXISTS = 'User already exists'
 const WENT_WRONG = 'Something went wrong'
